@@ -1,3 +1,18 @@
+# PyTorch Fundamentals Learning Path
+
+Welcome to PyTorch Fundamentals Learning Path!
+
+This repository contains Jupyter Notebook files for Microsoft Learn modules
+on PyTorch. You can get the best learning experience if you take this learning
+path on [Microsoft Learn](https://learn.microsoft.com), however, this repository
+with notebooks can also be used for both theoretical content and experimentation.
+
+## Learning Path Outline
+
+- Module 1 - [Introduction to PyTorch](intro-to-pytorch/1-introduction.md)
+- Module 2 - [Computer Vision](computer-vision-pytorch/1-introduction.md)
+- Module 3 - [Natural Language Processing](nlp-pytorch/1-introduction.md)
+- Module 4 - [Speech / Audio](audio-pytorch/1-introduction.md)
 
 # Contributing
 
