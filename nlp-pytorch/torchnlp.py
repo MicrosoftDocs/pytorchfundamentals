@@ -7,7 +7,7 @@ import os
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 vocab = None
-tokenizer = None
+tokenizer = torchtext.data.utils.get_tokenizer('basic_english')
 
 def load_dataset(ngrams=1,min_freq=1):
     global vocab, tokenizer
@@ -17,7 +17,6 @@ def load_dataset(ngrams=1,min_freq=1):
     test_dataset = list(test_dataset)
     classes = ['World', 'Sports', 'Business', 'Sci/Tech']
     print('Building vocab...')
-    tokenizer = torchtext.data.utils.get_tokenizer('basic_english')
     counter = collections.Counter()
     for (label, line) in train_dataset:
         counter.update(torchtext.data.utils.ngrams_iterator(tokenizer(line),ngrams=ngrams))
