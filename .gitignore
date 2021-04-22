@@ -1,6 +1,6 @@
 # Data directories
 # we want these now.
-#data/
+data/
 
 # Vectors cache
 .vector_cache
