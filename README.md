@@ -7,7 +7,9 @@ on PyTorch. You can get the best learning experience if you take this learning
 path on [Microsoft Learn](https://learn.microsoft.com), however, this repository
 with notebooks can also be used for both theoretical content and experimentation.
 
-## Learning Path Outline
+> This course has been authored by [Seth Juarez](https://www.sethjuarez.com/), [Cassie Breviu](http://twitter.com/cassieview), [Dmitry Soshnikov](http://soshnikov.com) and [Ari Bornstein](https://twitter.com/pythiccoder). 
+
+# Learning Path Outline
 
 - Module 1 - [Introduction to PyTorch](intro-to-pytorch/1-introduction.md)
 - Module 2 - [Computer Vision](computer-vision-pytorch/1-introduction.md)

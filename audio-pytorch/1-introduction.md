@@ -1,3 +1,4 @@
+> Author: [Cassie Breviu](http://twitter.com/cassieview)
 
 Ever wonder how the voice assistants actually work? How do they understand the words that we say? When you think about voice assistants you have the first step which is speech to text, then the nlp step which is the word embedding (turning words into numbers), then you have a classification of the utterance (what people say) to the intent (what they want the voice assistant to do). If you are following this learning path, you will have learned how the NLP part works already. Now we want to look at how we get the text from the spoken audio. Of course audio classification can be used for many things, not just speech assistants. For example, in music you can classify genres, or detect illness by the tone in someones voice, and even more applications that we haven't even thought of yet.
 
