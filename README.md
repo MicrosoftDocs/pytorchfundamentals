@@ -4,7 +4,7 @@ Welcome to PyTorch Fundamentals Learning Path!
 
 This repository contains Jupyter Notebook files for Microsoft Learn modules
 on PyTorch. You can get the best learning experience if you take this learning
-path on [Microsoft Learn](https://learn.microsoft.com), however, this repository
+path on [Microsoft Learn](https://docs.microsoft.com/en-us/learn/paths/pytorch-fundamentals/), however, this repository
 with notebooks can also be used for both theoretical content and experimentation.
 
 > This course has been authored by [Seth Juarez](https://www.sethjuarez.com/), [Cassie Breviu](http://twitter.com/cassieview), [Dmitry Soshnikov](http://soshnikov.com) and [Ari Bornstein](https://twitter.com/pythiccoder). 
