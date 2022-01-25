@@ -8,9 +8,11 @@ Before we jump into building the model you will be guided through the below list
 
 # Learning objectives
 
-- Introduce the key concepts to building machine learning models
-- Build a Computer Vision model
-- Introduce you to building model with PyTorch API.
+- Learn the key concepts used to build machine learning models
+- Learn how to build a neural network
+- Build models with the PyTorch API
+- Learn how to build a Computer Vision model
+- Learn how to optimize a model
 
 # Prerequisites
 
