@@ -1,0 +1,4 @@
+torch-1.10.2
+torchaudio-0.10.2
+soundfile-0.8.0
+sox
