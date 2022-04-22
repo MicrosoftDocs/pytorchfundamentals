@@ -7,9 +7,9 @@ opencv-python==4.5.1.48
 Pillow==7.1.2
 scikit-learn
 scipy
-torch==1.8.1
+torch
 torchaudio==0.8.1
 torchinfo==0.0.8
-torchtext==0.9.1
+torchtext
 torchvision==0.9.1
 transformers==4.3.3
