@@ -10,6 +10,6 @@ scipy
 torch
 torchaudio==0.8.1
 torchinfo==0.0.8
-torchtext
+torchtext==0.12.0
 torchvision==0.9.1
 transformers==4.3.3
