@@ -25,7 +25,7 @@ def load_dataset(ngrams=1,min_freq=1):
 
 def encode(x,voc=None,unk=0,tokenizer=tokenizer):
     v = vocab if voc is None else voc
-    return [v.stoi.get(s,unk) for s in tokenizer(x)]
+    return [v.get_stoi().get(s,unk) for s in tokenizer(x)]
 
 def train_epoch(net,dataloader,lr=0.01,optimizer=None,loss_fn = torch.nn.CrossEntropyLoss(),epoch_size=None, report_freq=200):
     optimizer = optimizer or torch.optim.Adam(net.parameters(),lr=lr)
