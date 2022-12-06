@@ -156,7 +156,7 @@ def common_transform():
 
 def load_cats_dogs_dataset():
     if not os.path.exists('data/PetImages'):
-        with zipfile.ZipFile('data/kagglecatsanddogs_3367a.zip', 'r') as zip_ref:
+        with zipfile.ZipFile('data/kagglecatsanddogs_5340.zip', 'r') as zip_ref:
             zip_ref.extractall('data')
 
     check_image_dir('data/PetImages/Cat/*.jpg')
